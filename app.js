@@ -19,9 +19,9 @@ app.get('/', (req, res) => {
   });
 });
 
-app.get('/generics', (req, res) => {
+app.get('/generic', (req, res) => {
 //   res.sendFile(__dirname + '/public/generic.html');
-    res.render('generics', {
+    res.render('generic', {
         nombre: 'Luis Perdomo',
         titulo: 'curso de node'
     });
